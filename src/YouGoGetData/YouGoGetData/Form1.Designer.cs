@@ -40,7 +40,6 @@ namespace YouGoGetData
             this.password = new System.Windows.Forms.TextBox();
             this.countrySelects = new System.Windows.Forms.ComboBox();
             this.infoWindow = new System.Windows.Forms.RichTextBox();
-            this.textBox = new System.Windows.Forms.TextBox();
             iconButton5 = new FontAwesome.Sharp.IconButton();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -190,15 +189,6 @@ namespace YouGoGetData
             this.infoWindow.TabIndex = 11;
             this.infoWindow.Text = "";
             // 
-            // textBox
-            // 
-            this.textBox.Location = new System.Drawing.Point(88, 75);
-            this.textBox.Name = "textBox";
-            this.textBox.ShortcutsEnabled = false;
-            this.textBox.Size = new System.Drawing.Size(100, 28);
-            this.textBox.TabIndex = 13;
-            this.textBox.Text = "Test";
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
@@ -207,7 +197,6 @@ namespace YouGoGetData
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(660, 681);
-            this.Controls.Add(this.textBox);
             this.Controls.Add(iconButton5);
             this.Controls.Add(this.infoWindow);
             this.Controls.Add(this.countrySelects);
@@ -239,7 +228,6 @@ namespace YouGoGetData
         private System.Windows.Forms.TextBox password;
         private System.Windows.Forms.ComboBox countrySelects;
         private System.Windows.Forms.RichTextBox infoWindow;
-        private System.Windows.Forms.TextBox textBox;
     }
 }
 
