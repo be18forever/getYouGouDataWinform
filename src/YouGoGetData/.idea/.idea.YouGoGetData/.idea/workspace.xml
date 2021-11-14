@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6ca2d719-063a-47aa-bd01-b50f3a27d3a0" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.YouGoGetData/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.YouGoGetData/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouGoGetData/Classes/GetYouGoData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/YouGoGetData/Classes/GetYouGoData.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +16,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7b5942462cbb4c50b01888bb5b65e83877a000/e5/4e248b63/WebDriver.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="ProjectId" id="20uYwSCE8N970cLmTie9KwJ3l7n" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -22,9 +26,12 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.26074702" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.0" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager">
@@ -57,6 +64,7 @@
       <updated>1636896186802</updated>
       <workItem from="1636896193296" duration="125000" />
       <workItem from="1636896614793" duration="5000" />
+      <workItem from="1636896832592" duration="1748000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1636896231669</created>

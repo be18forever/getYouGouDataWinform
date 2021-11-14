@@ -121,6 +121,8 @@ namespace YouGoGetData.Classes
                 {
 
 
+                 
+
                     if (firstTime > 0)
                     {
                         Thread.Sleep(5000);
@@ -168,12 +170,15 @@ namespace YouGoGetData.Classes
                     {
                       
                     }
+                 
                     var shopId = GlobalData.ShopNameIndex;
                     var shopListId = Convert.ToInt32(shopId);
                     shopList[GlobalData.ShopNameIndex].ClickOn(_js);
                     var chooseShopName = shopName[Convert.ToInt32(shopId.ToString())];
                     GlobalData.MainForm.LogMsg("你选择了:" + chooseShopName);
                     //shopDisplay = false;
+                    var m22 = 0;
+                    var x = 1 / m22;
                     _wait.Until(ExpectedConditions.ElementToBeClickable(By.XPath("//*[@ng-repeat='i in categorys']")));
                     var catalogList = _wait.Until((d) =>
                     {
@@ -560,12 +565,13 @@ namespace YouGoGetData.Classes
                     hssfworkbook.Close();  //关闭工作簿
                     fsWrite.Dispose(); //释放文件流
 
-
+                    GlobalData.ShopNameIndex = -1;
                     _webDriver.Navigate().GoToUrl("https://app.yollgo.com/#/home/home");
 
                 }
                 catch (Exception ex)
                 {
+                    GlobalData.ShopNameIndex = -1;
                     GlobalData.MainForm.LogMsg(ex.ToString());
                     _webDriver.Navigate().GoToUrl("https://app.yollgo.com/#/home/home");
                 }
