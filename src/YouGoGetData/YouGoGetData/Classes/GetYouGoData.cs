@@ -176,9 +176,6 @@ namespace YouGoGetData.Classes
                     shopList[GlobalData.ShopNameIndex].ClickOn(_js);
                     var chooseShopName = shopName[Convert.ToInt32(shopId.ToString())];
                     GlobalData.MainForm.LogMsg("你选择了:" + chooseShopName);
-                    //shopDisplay = false;
-                    var m22 = 0;
-                    var x = 1 / m22;
                     _wait.Until(ExpectedConditions.ElementToBeClickable(By.XPath("//*[@ng-repeat='i in categorys']")));
                     var catalogList = _wait.Until((d) =>
                     {
